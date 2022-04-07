@@ -31,7 +31,30 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Auth::login');
+$routes->get('/logout', 'Auth::logout');
+$routes->post('/proseslogin', 'Auth::prosesLogin');
+$routes->get('/aksesditolak', 'ErrorController::error403');
+
+$routes->group('/karyawan', ['filter' => 'authFilter'], function ($routes) {
+    $routes->get('/', 'Karyawan::index');
+    $routes->get('cuti/tambah', 'Karyawan::tambahCuti');
+    $routes->get('cuti/(:segment)/detail', 'Karyawan::detailCuti/$1');
+    $routes->get('cuti/list', 'Karyawan::listCuti');
+    $routes->post('cuti/tambah', 'Karyawan::prosesTambahCuti');
+});
+$routes->group('/manager', ['filter' => 'authFilter'], function ($routes) {
+    $routes->get('/', 'Manager::index');
+    $routes->get('cuti/(:segment)/detail', 'Manager::detailCutiKaryawan/$1');
+    $routes->get('cuti/list', 'Manager::listCuti');
+    $routes->post('karyawan/cuti', 'Manager::updateCutiKaryawan');
+});
+$routes->group('/seniormanager', ['filter' => 'authFilter'], function ($routes) {
+    $routes->get('/', 'SeniorManager::index');
+    $routes->get('cuti/(:segment)/detail', 'SeniorManager::detailCutiKaryawan/$1');
+    $routes->get('cuti/list', 'SeniorManager::listCuti');
+    $routes->post('karyawan/cuti', 'SeniorManager::updateCutiKaryawan');
+});
 
 /*
  * --------------------------------------------------------------------

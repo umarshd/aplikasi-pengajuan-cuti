@@ -1,0 +1,78 @@
+CRITICAL - 2022-04-06 04:19:54 --> Trying to access array offset on value of type null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Views\layouts\karyawan_layout.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\UmarSa...', 68, Array)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(210): include('C:\\Users\\UmarSa...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(226): CodeIgniter\View\View->render('layouts/karyawa...', Array, true)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Common.php(1089): CodeIgniter\View\View->render('manager/cuti/de...', Array, true)
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Manager.php(38): view('manager/cuti/de...', Array)
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Manager->detailCutiKaryawan('1')
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#11 {main}
+ERROR - 2022-04-06 04:29:42 --> Duplicate entry '1' for key 'fk_status_cuti_id_by_senior_manager'
+CRITICAL - 2022-04-06 04:29:42 --> Duplicate entry '1' for key 'fk_status_cuti_id_by_senior_manager'
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Karyawan.php(112): CodeIgniter\Model->insert(Array)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->prosesTambahCuti()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#13 {main}
+CRITICAL - 2022-04-06 07:37:28 --> Trying to access array offset on value of type null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Views\layouts\karyawan_layout.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\UmarSa...', 68, Array)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(210): include('C:\\Users\\UmarSa...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(226): CodeIgniter\View\View->render('layouts/karyawa...', Array, true)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Common.php(1089): CodeIgniter\View\View->render('manager/cuti/de...', Array, true)
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Manager.php(39): view('manager/cuti/de...', Array)
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Manager->detailCutiKaryawan('3')
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manager))
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#11 {main}
+CRITICAL - 2022-04-06 07:42:19 --> Undefined variable: user
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Views\seniormanager\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\UmarSa...', 25, Array)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(210): include('C:\\Users\\UmarSa...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Common.php(1089): CodeIgniter\View\View->render('seniormanager/i...', Array, true)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\SeniorManager.php(9): view('seniormanager/i...')
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\SeniorManager->index()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SeniorManager))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}
+ERROR - 2022-04-06 08:24:41 --> Column 'status_cuti_id_by_senior_manager' cannot be null
+CRITICAL - 2022-04-06 08:24:41 --> Column 'status_cuti_id_by_senior_manager' cannot be null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Karyawan.php(120): CodeIgniter\Model->insert(Array)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->prosesTambahCuti()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#13 {main}
+CRITICAL - 2022-04-06 08:53:28 --> Undefined offset: 0
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Karyawan.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\UmarSa...', 136, Array)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->prosesTambahCuti()
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#6 {main}

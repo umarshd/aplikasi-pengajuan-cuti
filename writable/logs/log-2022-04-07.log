@@ -1,0 +1,93 @@
+CRITICAL - 2022-04-07 10:48:12 --> Undefined variable: cuties
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Views\karyawan\cuti\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\UmarSa...', 50, Array)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(210): include('C:\\Users\\UmarSa...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/cuti/i...', Array, true)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Karyawan.php(171): view('karyawan/cuti/i...', Array)
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->listCuti()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}
+CRITICAL - 2022-04-07 10:49:21 --> Undefined variable: user
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Views\karyawan\cuti\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\UmarSa...', 53, Array)
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(210): include('C:\\Users\\UmarSa...')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/cuti/i...', Array, true)
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\app\Controllers\Karyawan.php(171): view('karyawan/cuti/i...', Array)
+#5 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->listCuti()
+#6 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#10 {main}
+CRITICAL - 2022-04-07 11:40:49 --> Class App\Filters\AuthFilter cannot extend from interface CodeIgniter\Filters\FilterInterface
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-07 11:41:31 --> Class App\Filters\AuthFilter cannot extend from interface CodeIgniter\Filters\FilterInterface
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-07 12:35:55 --> roleFilter filter must have a matching alias defined.
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('roleFilter')
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('roleFilter', 'before')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:36:01 --> roleFilter filter must have a matching alias defined.
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('roleFilter')
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('roleFilter', 'before')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:36:03 --> roleFilter filter must have a matching alias defined.
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('roleFilter')
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('roleFilter', 'before')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:36:03 --> roleFilter filter must have a matching alias defined.
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('roleFilter')
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('roleFilter', 'before')
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:38:41 --> Call to a member function where() on null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:38:52 --> Call to a member function where() on null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:38:54 --> Call to a member function where() on null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:39:45 --> Call to a member function where() on null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
+CRITICAL - 2022-04-07 12:40:01 --> Call to a member function where() on null
+#0 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(832): App\Controllers\Karyawan->index()
+#1 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#2 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\UmarSahid\Documents\GitHub\aplikasi-pengajuan-cuti\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\UmarSa...')
+#5 {main}
